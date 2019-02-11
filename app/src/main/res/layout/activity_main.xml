@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD54F"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ly_principal"
+        android:layout_width="352dp"
+        android:layout_height="485dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/tv_ocultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_separar" />
+
+        <ImageView
+            android:id="@+id/iv_FeriaFriki"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:contentDescription="@string/logo_panda"
+            app:srcCompat="@mipmap/logo" />
+
+        <ImageView
+            android:id="@+id/iv_panda"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:contentDescription="@string/img_panda"
+            app:srcCompat="@mipmap/pandafk" />
+
+        <TableLayout
+            android:id="@+id/tbl_boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="318dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borde_redondo"
+                    android:onClick="IniciarSesion"
+                    android:text="@string/iniciar_sesion"
+                    android:textColor="@android:color/background_light" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_separar"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_separar" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_nuevousuario"
+                    android:layout_width="318dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borde_redondo"
+                    android:onClick="HazteSocio"
+                    android:text="@string/nuevo_usuario"
+                    android:textColor="@android:color/background_light" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

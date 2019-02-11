@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "506336670682",
+    "firebase_url": "https://feriafriki-5b1fe.firebaseio.com",
+    "project_id": "feriafriki-5b1fe",
+    "storage_bucket": "feriafriki-5b1fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506336670682:android:1814f64a5369bce2",
+        "android_client_info": {
+          "package_name": "com.example.cristiancastillo.feria_friki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506336670682-65vbghnl515anmpm0pg6jrvt7n33unfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cristiancastillo.feria_friki",
+            "certificate_hash": "422ee9bb7ae7975811172bc0de1bdd0cd25b353f"
+          }
+        },
+        {
+          "client_id": "506336670682-86g689jlkm6fvqvf6t0usrn53jn7j82d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8mG3mnvJ_TcUbGww05y9zEkSN1jyg4Bc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506336670682-86g689jlkm6fvqvf6t0usrn53jn7j82d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "506336670682-im2kirrbr4kjl1f9vkcdgi1cvbv87h72.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fvaldivia.FeriaFriki"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
