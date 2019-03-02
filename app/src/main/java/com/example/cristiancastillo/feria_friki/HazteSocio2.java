@@ -44,7 +44,7 @@ public class HazteSocio2 extends AppCompatActivity {
 
     private EditText  fecNacimiento;
     private Button cargar_imagen;
-    private Spinner spinner_sexo;
+    private Spinner spinner_sex;
     private ImageView iv_cargarImagen, calendar;
     private int GALLERY = 1, CAMERA = 2, dia, mes,ano;
     private static final String IMAGE_DIRECTORY = "/demonuts";
@@ -59,7 +59,7 @@ public class HazteSocio2 extends AppCompatActivity {
 
 
         fecNacimiento = (EditText)findViewById(R.id.et_fecNacimiento);
-        spinner_sexo = (Spinner)findViewById(R.id.sp_sexo);
+        spinner_sex = (Spinner)findViewById(R.id.sp_sexo);
         cargar_imagen = (Button)findViewById(R.id.btn_cargar);
         iv_cargarImagen = (ImageView)findViewById(R.id.cargarImagen);
         calendar = (ImageView) findViewById(R.id.calendar);
@@ -68,7 +68,7 @@ public class HazteSocio2 extends AppCompatActivity {
         //Escoger Sexo
         String [] sexo = {"Seleccione su sexo","Masculino", "Femenino"};
         ArrayAdapter <String> adapter = new ArrayAdapter<String>(this, R.layout.spinner_item_sexo, sexo);
-        spinner_sexo.setAdapter(adapter);
+        spinner_sex.setAdapter(adapter);
 
 
         //Funcionalidad botón cargar

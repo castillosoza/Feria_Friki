@@ -128,7 +128,7 @@
                     android:background="@drawable/et_borderedondo"
                     android:ems="10"
                     android:hint="@string/et_pwd"
-                    android:inputType="textEmailAddress|textPassword" />
+                    android:inputType="textPassword" />
 
                 <TextView
                     android:id="@+id/tv_sep3"
@@ -155,14 +155,31 @@
                     android:text="@string/tv_separar" />
 
                 <Button
-                    android:id="@+id/btn_siguiente"
+                    android:id="@+id/btn_registro"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/borde_redondo"
-                    android:onClick="Siguiente"
+                    android:onClick="onClick"
                     android:text="@string/btn_registro"
                     android:textColor="@android:color/background_light" />
+
+                <TextView
+                    android:id="@+id/estado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_estado"
+                    android:textColor="#fcd424"
+                    tools:layout_editor_absoluteX="47dp"
+                    tools:layout_editor_absoluteY="430dp" />
+
+                <TextView
+                    android:id="@+id/detalle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_detalle"
+                    android:textColor="#fcd424" />
             </LinearLayout>
         </TableRow>
     </TableLayout>
+
 </android.support.constraint.ConstraintLayout>

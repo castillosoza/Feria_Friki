@@ -10,7 +10,8 @@
     <string name="correo">Correo</string>
     <string name="pwd">Clave</string>
     <string name="tv_datos">Ingrese sus datos</string>
-    <string name="et_nombre">*Nombre</string>
+    <string name="et_nombre">Nombre</string>
+    <string name="et_apellido">Apellido</string>
     <string name="et_pwd">*Contraseña</string>
     <string name="et_correo">*Correo</string>
     <string name="tv_registro">Registro</string>
@@ -19,7 +20,7 @@
     <string name="et_sexo">Sexo</string>
     <string name="et_nacimiento">Fecha de Nacimiento(dd/mm/aaaa)</string>
     <string name="et_cargarimagen">*Cargar avatar</string>
-    <string name="btn_cargarimagen">Cargar avatar</string>
+    <string name="btn_cargarimagen">Subir Imagen</string>
     <string name="btn_facebook">Facebook</string>
     <string name="tv_exito1">Su registro se ha</string>
     <string name="tv_exito2">realizado con éxito</string>
@@ -42,4 +43,21 @@
     <string name="et_fecNacimiento">Fecha de nacimiento</string>
     <string name="tv_sexo">Escoja su avatar</string>
     <string name="btn_siguiente">Siguiente</string>
+    <string name="tv_detalle">Espera detalle...</string>
+    <string name="tv_estado">Espera estado...</string>
+    <string name="btn_actualizar">Actualizar</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="auth_failed">Error en inicio de sesión</string>
+    <string name="title_activity_perfil_usuario">FeriaFriki</string>
+    <string name="title_home">Perfil</string>
+    <string name="title_dashboard">Credencial</string>
+    <string name="title_notifications">Eventos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_credencial_usuario">CredencialUsuario</string>
+
 </resources>

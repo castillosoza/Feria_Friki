@@ -5,10 +5,9 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
-
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -28,17 +27,18 @@
         <activity android:name=".HazteSocio2" />
         <activity android:name=".IniciarSesion" />
         <activity android:name=".RegistroSocio" />
-        <activity android:name=".RegistroSocio2"></activity>
+        <activity android:name=".RegistroSocio2" />
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="${applicationId}.com.squareup.picasso"
             android:exported="false" />
 
-
+        <activity
+            android:name=".PerfilUsuario"
+            android:label="@string/title_activity_perfil_usuario" />
+        <activity android:name=".Credencial" />
+        <activity android:name=".Eventos"></activity>
     </application>
-
-
-    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
